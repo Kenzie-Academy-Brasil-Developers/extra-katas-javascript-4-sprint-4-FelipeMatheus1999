@@ -27,7 +27,7 @@ newElement.textContent = JSON.stringify(lotrCitiesArray);
        let newElement = document.createElement("div");
        newElement.textContent = JSON.stringify(lotrCitiesArray);
        document.body.appendChild(newElement)
- 
+
        return lotrCitiesArray; // Não esqueça de retornar a saída
    }
 ``` 
