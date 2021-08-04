@@ -21,7 +21,7 @@ header('Kata I');
 
 function kata1() {
     const span = document.createElement('span');
-    span.textContent = JSON.stringify(gotCitiesCSV.split(' '));
+    span.textContent = JSON.stringify(gotCitiesCSV.split(','));
     
     return span;
 }
@@ -81,7 +81,7 @@ header('Kata VI');
 
 function kata6() {
     const span = document.createElement('span');
-    span.textContent = JSON.stringify(lotrCitiesArray.slice(3, -1))
+    span.textContent = JSON.stringify(lotrCitiesArray.slice(3))
 
     return span;
 }
@@ -157,7 +157,7 @@ header('Kata XII');
 
 function kata12() {
     const span = document.createElement('span');
-    span.textContent = JSON.stringify(bestThing.slice(0, 12))
+    span.textContent = JSON.stringify(bestThing.slice(0, 15))
 
     return span;
 }
@@ -169,7 +169,7 @@ header('Kata XIII');
 
 function kata13() {
     const span = document.createElement('span');
-    span.textContent = JSON.stringify(bestThing.slice(-13, -1));
+    span.textContent = JSON.stringify(bestThing.slice(-13));
 
     return span;
 }
@@ -193,7 +193,7 @@ header('Kata XV');
 
 function kata15() {
     const span = document.createElement('span');
-    span.textContent = JSON.stringify(bestThing.substring(68, 80));
+    span.textContent = JSON.stringify(bestThing.substring(68, 81));
 
     return span;
 }
