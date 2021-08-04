@@ -263,4 +263,3 @@ function kata20() {
 }
 
 showResults(kata20);
-// daqui em diante é contigo
